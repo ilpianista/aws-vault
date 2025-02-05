@@ -654,8 +654,8 @@ Yubikeys can be used with AWS Vault via Yubikey's OATH-TOTP support. TOTP is nec
 You can verify these prerequisites by running `ykman info` and checking `OATH` is enabled.
 
 ### Setup
- 1. Log into the AWS web console with your IAM user credentials, and navigate to  _My Security Credentials_
- 2. Under _Multi-factor authentication (MFA)_, click `Manage MFA device` and add a Virtual MFA device
+ 1. Log into the AWS web console with your IAM user credentials, and navigate to  _Security Credentials_
+ 2. Under _Multi-factor authentication (MFA)_, click `Assign MFA device` and add a _Authenticator app_ MFA device
  3. Instead of showing the QR code, click on `Show secret key` and copy the key.
  4. On a command line, run:
     ```shell
